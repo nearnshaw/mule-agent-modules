@@ -2,12 +2,13 @@
 
 Includes Mule Agent extensions. For more information about how extending Mule Agent please check link:http://mulesoft.github.io/mule-agent/#_how_to_extend_mule_agent[documentation].
 
-== How to Install a Module
+== How to Compile and Install
 
+- Access to Mule EE maven repository is needed in order to compile this project
+- Checkout latest release branch (e.g. *release/1.2.0*)
 - Compile the module running *mvn clean install*
 - Copy the compiled jar file under the _target_ folder into the Mule Agent installation folder *_MULE_HOME_/plugins/_AGENT_FOLDER_/lib*
 
 == How to Contribute with a New Module
 
 Please take a look at the included modules (could find JMX publishers under *mule-agent-monitoring-publishers*) for examples. Please follow the instructions in link:http://mulesoft.github.io/mule-agent/#_adding_new_jmx_publisher[Agent documentation] about how to write your own module. We look forward for your pull requests!
-
